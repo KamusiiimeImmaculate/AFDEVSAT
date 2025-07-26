@@ -12,11 +12,21 @@ header {
   padding: 2rem 1rem;
 }
 
+/*
 .logo {
   width: 80px;
   height: auto;
   margin-bottom: 1rem;
 }
+*/
+.logo {
+  width: 150px;  /* Increase width */
+  height: auto;  /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto 10px auto; /* Center and space below */
+}
+
+
 
 .subtitle {
   font-style: italic;
@@ -66,3 +76,68 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+
+.country-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.africa-map {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.country-list {
+  flex: 1;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.country-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+/* Delegates*/
+
+.news-item {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Enables wrapping on smaller screens */
+  margin-bottom: 2rem;
+}
+
+.news-figure {
+  flex: 1;
+  max-width: 45%;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.news-figure figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #555;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.news-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+
+/*EgSA*/
