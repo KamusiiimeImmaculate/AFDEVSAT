@@ -62,7 +62,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.countries {
+.labs {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
