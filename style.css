@@ -6,24 +6,18 @@ body {
 }
 
 header {
-  background-color: #00CED1;
+  background-color: #0b3d91;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
 }
 
-/*
+
 .logo {
-  width: 130px;
-  height: auto;
-  margin-bottom: 1rem;
-}
-*/
-.logo {
-  width: 200px;  /* Increase width */
-  height: auto;  /* Maintain aspect ratio */
+  width: 150px; 
+  height: auto; 
   display: block;
-  margin: 0 auto 10px auto; /* Center and space below */
+  margin: 0 auto 10px auto; 
 }
 
 
@@ -34,7 +28,7 @@ header {
 }
 
 nav {
-  background-color: #0b3d91;
+  background-color: #063970;
   padding: 0.5rem;
 }
 
@@ -62,7 +56,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.labs {
+.countries {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -71,7 +65,7 @@ section {
 }
 
 footer {
-  background-color: #00CED1;
+  background-color: #0b3d91;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -108,22 +102,22 @@ footer {
 /* Delegates*/
 
 .news-item {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  flex-wrap: wrap; /* Enables wrapping on smaller screens */
+  display: block; 
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .news-figure {
-  flex: 1;
-  max-width: 45%;
+  width: 100%; 
+  max-width: none; 
+  margin: 0 auto; 
 }
 
 .news-image {
-  width: 100%;
+  width: 100%; 
   height: auto;
   border-radius: 8px;
+  display: block; 
 }
 
 .news-figure figcaption {
@@ -135,10 +129,8 @@ footer {
 }
 
 .news-text {
-  flex: 1;
-  max-width: 50%;
+  display: none;
 }
 
 
-/*EgSA*/
 
