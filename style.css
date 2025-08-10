@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #0b3d91;
+  background-color: #00FFFF;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -28,7 +28,7 @@ header {
 }
 
 nav {
-  background-color: #063970;
+  background-color: #CCA957;
   padding: 0.5rem;
 }
 
@@ -131,6 +131,7 @@ footer {
 .news-text {
   display: none;
 }
+
 
 
 
