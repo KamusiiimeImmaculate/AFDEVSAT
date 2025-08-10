@@ -28,7 +28,7 @@ header {
 }
 
 nav {
-  background-color: #FFDB58;
+  background-color: #063970;
   padding: 0.5rem;
 }
 
@@ -96,7 +96,7 @@ footer {
 .country-list li {
   margin-bottom: 15px;
   line-height: 1.6;
-
+}
 
 
 /* Delegates*/
@@ -131,8 +131,6 @@ footer {
 .news-text {
   display: none;
 }
-
-
 
 
 
